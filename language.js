@@ -11,3 +11,5 @@ console.log (total);
 // in the next lines you can see the same process but shortly and easy to compose
 
 console.log(sum(range(1,10)));
+
+//'Value' values in Javascript are chunks that represent pieces of information
