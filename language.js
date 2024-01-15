@@ -74,5 +74,29 @@ var nametwo = 'Jesus';
 const greeting = 'Welcome to my page ';
 console.log (greeting + nametwo);
 
+//'if' If we want some code to be execited if and only if certain condition hold. 'Conditional execution'
+let theNumber = Number(prompt('Pick a number'));
+if (!Number.isNaN(theNumber)){
+    console.log('Your number is the square root of ' + theNumber * theNumber);
+}
+
+//'else' Else we use it in case the condition in if is not good or correct and you want to create an alternative excution path
+let theNumberElse = Number(prompt('Pick a number'));
+if (!Number.isNaN(theNumberElse)){
+    console.log('Your number is the square root of ' + theNumberElse * theNumberElse);
+}else{
+    console.log('Hey,Are you stupid, why didnt you give me a number?');
+}
+
+//Also we can have more than two pathsto choose from, we can chain multiple if/else
+
+let theNumberChain = Number(prompt('Pick a number'));
+if (num < 10){
+    console.log ('Small Number')
+}else if (num < 100){
+    console.log ('Medium Number')
+}else {
+    console.log ('Large Number')
+}
 
 
