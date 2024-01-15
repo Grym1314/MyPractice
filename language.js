@@ -13,3 +13,11 @@ console.log (total);
 console.log(sum(range(1,10)));
 
 //'Value' values in Javascript are chunks that represent pieces of information
+
+//01/15/24-Eloquent
+//Unary Operators
+//typeof- produces a string value naming the type of the value you give it
+
+console.log(typeof 4.5) //Number
+console.log(typeof "X") //String
+
