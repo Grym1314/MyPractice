@@ -99,4 +99,14 @@ if (num < 10){
     console.log ('Large Number')
 }
 
+//01/16/24
+//Loops- Control flow is called a loop
+
+let numberLoop = 0;
+while (numberLoop <=12){
+    console.log (numberLoop)
+    numberLoop = numberLoop + 1;
+    
+}
+
 
