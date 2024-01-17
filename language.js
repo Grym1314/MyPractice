@@ -178,5 +178,16 @@ for (let y = 0; y < size; y++) {
   }
   board += "\n";
 }
-
 console.log(board);
+
+//Not Good
+let chess = "# # # # ";
+let chessSecond = " # # # #";
+let counterChess = 0;
+if ((counterChess <= 7, counterChess % 2 == 0)) {
+  console.log(chess);
+  counterChess++;
+} else {
+  console.log(chessSecond);
+  counterChess++;
+}
