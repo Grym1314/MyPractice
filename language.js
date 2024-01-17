@@ -106,7 +106,14 @@ let numberLoop = 0;
 while (numberLoop <=12){
     console.log (numberLoop)
     numberLoop = numberLoop + 1;
-    
+} // This will repeat the console log until the condition in this case <= is respected
+
+// other example 
+let result = 1;
+let counter = 0;
+while (counter <= 10){
+    result = result * 2;
+    console.log(result);
+    counter = counter + 1;
 }
-
-
+//console.log (result)
