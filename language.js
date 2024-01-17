@@ -101,7 +101,7 @@ if (num < 10){
 
 //01/16/24
 //Loops- Control flow is called a loop
-
+// Loop while
 let numberLoop = 0;
 while (numberLoop <=12){
     console.log (numberLoop)
@@ -117,3 +117,15 @@ while (counter <= 10){
     counter = counter + 1;
 }
 //console.log (result)
+
+//Loop with do
+let yourName;
+do{
+    yourName = prompt('What is your name?');
+}while(!yourName);
+console.log (yourName);
+
+//LOOP for-- we can agroup all statements in one State after for, the following code is like the first LOOP WHILE example
+for (let numberFor = 0; numberFor <= 12; numberFor = numberFor + 2){
+    console.log(numberFor);
+}
