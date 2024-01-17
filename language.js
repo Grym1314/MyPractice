@@ -129,3 +129,39 @@ console.log (yourName);
 for (let numberFor = 0; numberFor <= 12; numberFor = numberFor + 2){
     console.log(numberFor);
 }
+
+//extra example
+let resultFor = 1;
+for (let counterFor=0; counterFor <= 10;counterFor = counterFor = 1){
+    resultFor = resultFor * 2;
+}
+console.log(resultFor);
+
+//Shortcuts
+for (let numberShort = 0; numberShort <= 12; numberShort += 2){
+    console.log(numberShort);
+}
+
+//switch
+switch (prompt('What is the weather like?')){
+    case "rainy":
+        console.log('Rember to bring an umbrella');
+        break;
+    case 'sunny':
+        console.log("Protect your skin");// is important to remember that we need to but a break;
+    case 'cloudy':
+        console.log('Go outside');
+        break;
+        default://What ever the user type, will say the following console
+            console.log('Unkown weather type!');
+            break;
+}
+
+//EXERCISES
+let numberLoopE = "0";
+let counterE = 0;
+while (counterE <= 6) {
+  console.log(numberLoopE);
+  counterE++;
+  numberLoopE = numberLoopE + "0";
+}
