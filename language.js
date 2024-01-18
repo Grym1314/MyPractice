@@ -191,3 +191,20 @@ if ((counterChess <= 7, counterChess % 2 == 0)) {
   console.log(chessSecond);
   counterChess++;
 }
+
+//Defining a fuction
+const square = function(x) {
+    return x * x;
+    };
+console.log(square(12));
+
+//with the following function we can know the exponent of every number
+const power = function(base, exponent) {
+    let result = 1;
+    for (let count = 0; count < exponent; count++) {
+    result *= base;
+    }
+    return result;
+    };
+    console.log(power(2, 10));
+    // → 1024
