@@ -208,3 +208,15 @@ const power = function(base, exponent) {
     };
     console.log(power(2, 10));
     // → 1024
+
+// 010/18/2024
+
+//closure
+
+function multiplier (factor){
+    return number => number * factor;
+}
+let twice = multiplier(2);
+console.log(twice(5));
+
+//When called the  function body sees the enviornment in which it was created , not the enviorament in which it is called
