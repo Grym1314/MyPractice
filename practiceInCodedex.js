@@ -12,3 +12,11 @@ const askSecond = 'Do you work?';
 
 console.log(greetings, ask,name,lastName,askSecond);
 
+// 19/01/24
+//Types of data
+//Numbers, Strings, Boolean, Null and Undefined
+
+fahrenheit = 44;
+let celsius = ((fahrenheit - 32)/1.8);
+
+console.log (celsius);
