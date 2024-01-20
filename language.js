@@ -220,3 +220,37 @@ let twice = multiplier(2);
 console.log(twice(5));
 
 //When called the  function body sees the enviornment in which it was created , not the enviorament in which it is called
+
+// 01/19/24
+//Growing Fuction
+function printFarmInventory (cows, chikens){
+    let cowString = String (cows);
+    while (cowString.length < 3){
+        cowString = '0' + cowString;
+    }
+    console.log (`${cowString} Cows`);
+
+    let chickenString = String(chikens);
+    while (chickenString.length < 3){
+        chickenString = '0' + chickenString;
+    }
+    console.log (`${chickenString} Chikens`);
+} 
+printFarmInventory (7,11);
+
+// better way
+function printZeroPaddeWithLabel (numberPadde, label){
+    let numberString = String (numberPadde);
+    while (numberString.length < 3){
+        numberString = "0" + numberString;
+    }
+    console.log (`${numberString} ${label}`);
+}
+
+function printFarmInventorySecond (cows,chickens,pigs){
+    printZeroPaddeWithLabel (cows,'Cows');
+    printZeroPaddeWithLabel (chickens,'Chikens');
+    printZeroPaddeWithLabel (pigs,'Pigs');
+}
+
+printFarmInventorySecond (7,11,3);
