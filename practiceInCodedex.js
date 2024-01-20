@@ -18,5 +18,18 @@ console.log(greetings, ask,name,lastName,askSecond);
 
 fahrenheit = 44;
 let celsius = ((fahrenheit - 32)/1.8);
-
 console.log (celsius);
+
+// Exponents. Since exponentiation is super similar to multiplication, JavaScript uses the notation **.
+let score = 0
+score = 2 ** 2      // score is 4
+score = 2 ** 3      // score is now 8
+score = 2 ** 4      // score is now 16
+score = 2 ** 5      // score is now 32
+console.log(score)  // Output: 32
+
+function bmi(mass,height){
+    return mass / height ** 2;
+}
+
+console.log(bmi(287,6.5))
