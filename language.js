@@ -318,7 +318,9 @@ console.log([0,1,2,3,4].slice(2));//[2,3,4]
 //slice in acton 
 function   remove (array,index){
     return array.slice(0,index)
-     .contact(array.slice(index+1));
+     .concat(array.slice(index+1));
 }
-console.log(remove(['a','b','c','d','e'],2));
-
+console.log(remove(['a','b','c','d','e'],2));//['a','b','c','d','e']
+//More examples 
+console.log('coconuts'.slice(0,4));//coco
+console.log('coconuts'.indexOf('u')); //5
