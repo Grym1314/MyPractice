@@ -271,3 +271,25 @@ function printFarmInventoryThree (cows, chickens, pigs){
     console.log (`${zeroPad(pigs ,3)} Pigs`);
 }
 printFarmInventoryThree (7,16,3);
+
+//01-20-2024
+//.push and .pop
+let sequence = [1,2,3];
+sequence.push(4);
+sequence.push(5);
+console.log(sequence);
+console.log(sequence.pop());
+console.log(sequence);
+
+//tentacles and delete operator
+let anObject = {left:1, right:2};
+console.log (anObject.left); // 1
+delete anObject.left;
+console.log(anObject.left);// Undefined
+console.log('left' in anObject); // false
+console.log('right' in anObject); // true
+
+//object assign
+let objectA = { a:1, b:2};
+Object.assign(objectA,{b:3, c:4});
+console.log(objectA);
