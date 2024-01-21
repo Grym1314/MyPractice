@@ -293,3 +293,17 @@ console.log('right' in anObject); // true
 let objectA = { a:1, b:2};
 Object.assign(objectA,{b:3, c:4});
 console.log(objectA);
+
+//01/21/2024
+//unshift and shift
+let todoList = [];
+function remember(task){
+    todoList.push(task);
+}
+function getTask (){
+    return todoList.shift();
+}
+function rememberUrgently(task){
+    todoList.unshift(task);
+}
+
