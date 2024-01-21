@@ -327,3 +327,23 @@ console.log('coconuts'.indexOf('u')); //5
 
 //.padstart
 console.log (String(6).padStart(3,"0")); //006
+
+//Destructuring
+let {name} = {name: 'Faraji', age: 23};
+console.log(name);//Faraji
+
+//Call console many times
+//doing something N times
+function repeatLog(n){
+    for (let i=0; i<n;i++){
+        console.log(i);
+    }
+}
+
+//doing something
+function repeatDoing(nDoing, action){
+    for (let ii = 0; ii < nDoing; ii++){
+        action (ii);
+    }
+}
+repeatDoing (3,console.log);
