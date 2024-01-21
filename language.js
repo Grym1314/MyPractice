@@ -324,3 +324,6 @@ console.log(remove(['a','b','c','d','e'],2));//['a','b','c','d','e']
 //More examples 
 console.log('coconuts'.slice(0,4));//coco
 console.log('coconuts'.indexOf('u')); //5
+
+//.padstart
+console.log (String(6).padStart(3,"0")); //006
