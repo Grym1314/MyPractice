@@ -315,6 +315,10 @@ console.log([1,2,3,2,1].lastIndexOf(2)); //3
 //slice
 console.log([0,1,2,3,4].slice(2,4));//[2,3]
 console.log([0,1,2,3,4].slice(2));//[2,3,4]
-
-
+//slice in acton 
+function   remove (array,index){
+    return array.slice(0,index)
+     .contact(array.slice(index+1));
+}
+console.log(remove(['a','b','c','d','e'],2));
 
