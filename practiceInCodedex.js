@@ -68,6 +68,15 @@ if (grade > 60) {
 //If the condition is true, the code inside the curly braces { } executes.
 //If the condition is false, the code inside the curly braces is skipped.
 
+//Else clause
+/*
+if (condition) {
+    // Do something
+  } else {
+    // Do something else 
+  }
+*/
+
 //Ejercicio
 let hour= 10
 if (hour < 12){
