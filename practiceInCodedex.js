@@ -69,3 +69,9 @@ if (grade > 60) {
 //If the condition is false, the code inside the curly braces is skipped.
 
 //Ejercicio
+let hour= 10
+if (hour < 12){
+  console.log('Buenos dias \nHaz ejercicio y desayuna bien');
+}else{
+  console.log('Buenas tardes \nHaz ejercicio y come bien');
+};  
