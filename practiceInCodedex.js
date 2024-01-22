@@ -84,25 +84,3 @@ if (hour < 12){
 }else{
   console.log('Buenas tardes \nHaz ejercicio y come bien');
 };  
-
-//01/22/2024
-//MAPS
-let ages = {
-  Boris : 39,
-  Liang : 76,
-  Jury : 62
-};
-console.log(`Jury is ${ages['Jury']}`); // Jury is 62
-console.log ('Is Jacks age known?', 'Jack' in ages); //Is Jack's age knows? false
-console.log('Is toString age know?','toString' in ages);// Is toString age know? true
-console.log('toString' in Object.create(null)); // False
-
-// Noas it stores a mapping and allows any type of keys
-let age = new Map();
-age.set('Boris', 39);
-age.set('Liang', 22);
-age.set('Julia', 62);
-
-console.log(`Julia is ${age.get('Julia')}`); // Julia is 62
-console.log('Is Jacks age know?', age.has('Jack')); //Is jacks age know? False
-console.log(age.has('toString')); // False
