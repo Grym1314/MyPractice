@@ -370,3 +370,27 @@ let ages = {
   console.log(`Julia is ${age.get('Julia')}`); // Julia is 62
   console.log('Is Jacks age know?', age.has('Jack')); //Is jacks age know? False
   console.log(age.has('toString')); // False
+
+  //Iterable
+// Definir un objeto iterable con Symbol.iterator
+const miIterable = {
+    valores: [1, 2, 3],
+    [Symbol.iterator]: function() {
+    let indice = 0;
+    return {
+        next: () => {
+        if (indice < this.valores.length) {
+            return { value: this.valores[indice++], done: false };
+        } else {
+            return { done: true };
+        }
+        }
+    };
+    }
+};
+  // Utilizar el bucle for...of para iterar sobre el objeto iterable
+for (const valor of miIterable) {
+    console.log(valor);
+}
+
+//Iterable data structure
