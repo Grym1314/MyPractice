@@ -33,3 +33,15 @@ function bmi(mass,height){
 }
 
 console.log(bmi(287,6.5))
+
+//Currency Project
+const yuan=560;
+const yen=2455;
+const won=3280;
+let yuanDollar= 0.14 * yuan;
+let yenDollar= 0.0068 * yen;
+let wonDollar = 0.00075 * won;
+const usd = yuanDollar + yenDollar + wonDollar;
+console.log('You have in USD currency ' + usd + "usd");
+
+
