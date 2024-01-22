@@ -84,3 +84,15 @@ if (hour < 12){
 }else{
   console.log('Buenas tardes \nHaz ejercicio y come bien');
 };  
+
+//01/22/2024
+//MAPS
+let ages = {
+  Boris : 39,
+  Liang : 76,
+  Jury : 62
+};
+console.log(Jury is ${ages['Jury']}); // Jury is 62
+console.log ('Is Jacks age known?', 'Jack' in ages); //Is Jack's age knows? false
+console.log('Is toString age know?','toString' in ages);// Is toString age know? true
+console.log('toString' in Object.create(null)); // False
