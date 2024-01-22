@@ -44,4 +44,28 @@ let wonDollar = 0.00075 * won;
 const usd = yuanDollar + yenDollar + wonDollar;
 console.log('You have in USD currency ' + usd + "usd");
 
+// Conditional Statement
+//Coin.js
+let coin = Math.random();
 
+if (coin > 0.5) {
+  console.log("Heads");
+} else {
+  console.log("Tails");
+}
+
+//IF statement-which tests a condition for truth and executes the code if it is true
+//if (condition) {
+  // Do something
+//}
+
+//Grades
+let grade = 70;
+if (grade > 60) {
+  console.log("You passed!");
+}
+//The if keyword is followed by a condition, grade > 60, inside a set of parentheses ( ).
+//If the condition is true, the code inside the curly braces { } executes.
+//If the condition is false, the code inside the curly braces is skipped.
+
+//Ejercicio
