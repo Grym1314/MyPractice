@@ -84,3 +84,15 @@ if (hour < 12){
 }else{
   console.log('Buenas tardes \nHaz ejercicio y come bien');
 };  
+
+//01/22/2024
+//else if
+let ph = 4;
+
+if (ph > 7) {
+  console.log("basic");
+} else if (ph < 7) {
+  console.log("Acid");
+} else {
+  console.log("NEUTRAL");
+}
