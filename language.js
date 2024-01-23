@@ -393,4 +393,11 @@ for (const valor of miIterable) {
     console.log(valor);
 }
 
-//Iterable data structure
+//Strict Mode
+function canYouSpotTheProblem(){
+    'use strict';
+    for (counter = 0; counter < 10; counter++){
+        console.log('Happy happy')
+    }
+}
+canYouSpotTheProblem(); //referenceError: counter is not defined
