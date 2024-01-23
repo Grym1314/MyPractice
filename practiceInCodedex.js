@@ -96,3 +96,7 @@ if (ph > 7) {
 } else {
   console.log("NEUTRAL");
 }
+
+// Math.random() method returns a random decimal number between 0 and 1.
+//Math.floor() hen rounding it down to the nearest integer
+console.log (Math.floor(Math.random() * 10));
