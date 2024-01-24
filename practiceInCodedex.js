@@ -100,3 +100,34 @@ if (ph > 7) {
 // Math.random() method returns a random decimal number between 0 and 1.
 //Math.floor() hen rounding it down to the nearest integer
 console.log (Math.floor(Math.random() * 10));
+
+// Magic ball 8
+let random = Math.floor(Math.random() * 10);
+if (random == 0){
+  console.log('Ariel se la come completa?');
+  console.log('Yes - definitely.');
+}else if (random == 1) {
+  console.log('Ariel se la come completa?');
+  console.log('It is decidedly so');
+}else if (random == 2 ) {
+  console.log('Ariel se la come completa?');
+  console.log('Without a doubt');
+}else if (random == 3) {
+  console.log('Ariel se la come completa?');
+  console.log('Reply hazy, try again.');
+}else if (random == 4) {
+  console.log('Ariel se la come completa?');
+  console.log('Ask again later.');
+}else if (random == 5) {
+  console.log('Ariel se la come completa?');
+  console.log('Better not tell you now.');
+}else if (random == 6) {
+  console.log('Ariel se la come completa?');
+  console.log('My sources say no.');
+}else if (random == 7) {
+  console.log('Ariel se la come completa?');
+  console.log('Outlook not so good.');
+}else{
+  console.log('Ariel se la come completa?');
+  console.log('Very doubtful.');
+}
