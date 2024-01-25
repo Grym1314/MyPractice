@@ -131,3 +131,10 @@ if (random == 0){
   console.log('Ariel se la come completa?');
   console.log('Very doubtful.');
 }
+//01/24/2024
+/*Logical operators, also known as Boolean operators, combine and evaluate two conditions. They are &&, ||, and ! operators:
+
+The AND logical operator && returns true if both conditions are true, and returns false otherwise.
+The OR logical operator || returns true if at least one of the conditions is true, and false otherwise.
+The NOT logical operator ! returns true if the condition is false, and vice versa.
+*/
