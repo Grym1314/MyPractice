@@ -132,9 +132,45 @@ if (random == 0){
   console.log('Very doubtful.');
 }
 //01/24/2024
+//Comparison operators compare two values: ===, !==, >, >=, <, <=.
 /*Logical operators, also known as Boolean operators, combine and evaluate two conditions. They are &&, ||, and ! operators:
 
 The AND logical operator && returns true if both conditions are true, and returns false otherwise.
 The OR logical operator || returns true if at least one of the conditions is true, and false otherwise.
 The NOT logical operator ! returns true if the condition is false, and vice versa.
 */
+//Air quality
+let aqi= 300;
+if (aqi > 0 && aqi < 50){
+  console.log ('Good');
+} else if (aqi > 51 && aqi < 100){
+  console.log ('Moderate');
+}else if (aqi > 101 && aqi < 151){
+  console.log ('Unhealthy (Sensitive Groups)');
+}else if (aqi > 152 && aqi < 201){
+  console.log ('Unhealthy');
+}else if (aqi > 202 && aqi < 301){
+  console.log ('Very Unhealthy');
+}else{
+  console.log ('Hazardous');
+}
+
+//
+
+let gamer = 3;
+let randomm=(Math.floor(Math.random() * 3) + 1);
+if (randomm == 3 & gamer == 1) {
+  console.log("Player picked:      Scissors");
+  console.log("Computer picked:      Rock");
+  console.log("The computer won!");
+} else if (randomm == 1 && gamer == 2) {
+  console.log("Player picked:      Paper");
+  console.log("Computer picked:      Scissors");
+  console.log("The computer won!");
+}  else if (randomm == 2 && gamer == 3) {
+  console.log("Player picked:      Rock");
+  console.log("Computer picked:      Paper");
+  console.log("The computer won!");
+} else {
+  console.log("TIE");
+}
