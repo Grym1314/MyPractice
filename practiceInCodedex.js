@@ -155,7 +155,7 @@ if (aqi > 0 && aqi < 50){
   console.log ('Hazardous');
 }
 
-//
+//26/01
 
 let gamer = 3;
 let randomm=(Math.floor(Math.random() * 3) + 1);
