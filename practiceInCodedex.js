@@ -174,3 +174,5 @@ if (randomm == 3 & gamer == 1) {
 } else {
   console.log("TIE");
 }
+
+//hoy no hicimos nada
