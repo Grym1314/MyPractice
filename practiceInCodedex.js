@@ -175,4 +175,13 @@ if (randomm == 3 & gamer == 1) {
   console.log("TIE");
 }
 
-//hoy no hicimos nada
+//02/02/2024
+//Loop with While
+let randomNumber = Math.floor(Math.random() * 10);
+
+while (randomNumber != 7) {
+  console.log("Duck 🦆");
+  randomNumber = Math.floor(Math.random() * 10);
+}
+
+console.log("Goose! 🦢");
