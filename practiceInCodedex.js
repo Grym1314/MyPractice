@@ -196,3 +196,8 @@ while (guess !== luckyNumber){
   guess = Math.floor(Math.random() * 100) + 1;
 };
 console.log('My lucky number is ' + luckyNumber)
+
+//Loop with for
+for (let i = 1; i <= 10; i++) {
+    console.log(i);
+};
