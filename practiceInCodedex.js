@@ -201,3 +201,18 @@ console.log('My lucky number is ' + luckyNumber)
 for (let i = 1; i <= 10; i++) {
     console.log(i);
 };
+
+//Continue
+for (let i = 0; i < 5; i++) {
+  if (i == 1) {
+  continue;
+  }
+  console.log(i);
+}
+
+for (let i = 0; i < 5; i++) {
+  if (i == 3) {
+  break;
+  }
+  console.log(i);
+}
