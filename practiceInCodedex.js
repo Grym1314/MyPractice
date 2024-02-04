@@ -185,3 +185,14 @@ while (randomNumber != 7) {
 }
 
 console.log("Goose! 🦢");
+
+//02/03
+//Lucky Number
+const luckyNumber = 77
+let guess = Math.floor(Math.random() * 100) + 1;
+
+while (guess !== luckyNumber){
+  console.log('Nope, it isn ' + guess);
+  guess = Math.floor(Math.random() * 100) + 1;
+};
+console.log('My lucky number is ' + luckyNumber)
