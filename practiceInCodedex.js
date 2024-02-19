@@ -235,3 +235,19 @@ for (let i = 0; i < 10; i++) {
     if (i % 2 == 0) continue;
     alert(i); // 1, then 3, 5, 7, 9
 }
+
+/*
+switch(x) {
+  case 'value1':  // if (x === 'value1')
+    ...
+    [break]
+
+  case 'value2':  // if (x === 'value2')
+    ...
+    [break]
+
+  default:
+    ...
+    [break]
+}
+*/
