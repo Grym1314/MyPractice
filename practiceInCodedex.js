@@ -252,7 +252,6 @@ switch(x) {
 }
 */
 
-
 //21/02/2024
  //LIST
  const products = [
