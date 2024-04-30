@@ -17,3 +17,5 @@ function ChatRoom({ roomId }) {
 };
 
 export default ChatRoom;
+
+//caveats
