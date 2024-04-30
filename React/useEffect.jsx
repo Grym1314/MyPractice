@@ -1,4 +1,6 @@
-import { useEffect } from 'react';
+//useEffect(setup, dependencies?)
+
+import { useEffect } from 'react';//Call useEffect at the top level of your component to declare an Effect:
 import { createConnection } from './chat.js';
 
 function ChatRoom({ roomId }) {
