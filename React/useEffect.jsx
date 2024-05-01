@@ -18,5 +18,4 @@ function ChatRoom({ roomId }) {
 
 export default ChatRoom;
 
-//To see this example I will use the file InfexUE1 to demostrate some examples\
-
+//To see this example I will use the file IndexUE1 to demostrate some examples
