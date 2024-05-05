@@ -5,11 +5,11 @@ export class FadeInAnimation {
     start(duration) {
       this.duration = duration;
       if (this.duration === 0) {
-        // Jump to end immediately
+        // Jump to end immediately, duration
         this.onProgress(1);
       } else {
         this.onProgress(0);
-        // Start animating
+        // Start animating part
         this.startTime = performance.now();
         this.frameId = requestAnimationFrame(() => this.onFrame());
       }
