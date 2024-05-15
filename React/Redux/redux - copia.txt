@@ -1,0 +1,34 @@
+ Redux,
+
+Para aprender Redux necesitamos entender tres conceptos:
+
+Store: objeto de JavaScript inmutable que almacena todos tus estados, tipo base datos para tu aplicacion cliente (estado centralizado).
+Cuando en nuestra aplicacion se ejecuta un evento: onClick, onSubmit, onChange y onEvent, lo que queremos es que se actualice nuestro estado
+
+Actions: Es un objeto de JavaScript que contiene informacion y le dice a Redjux que operacion se va a realizar sobre el store, quiere decir si quieres quitar anadir o obtener datos
+Ejemplo:
+
+const myAction = {
+ type: "counter/incremented", //nombre de la accion a ejecutar
+ payload: 20 //dato que queremos darle al store
+
+}
+-Necesitamos una function llamada Dispacth() que ayudar a ejecutar estos actions
+-piensa que los actions son ordenes escritas para el Store
+-no definen como ejecutar estas ordenes por lo que necesitamos de los reducers
+
+Reducers:Es una function que solo espera dos parametros.
+-el estado actual: para saber que datos tiene la interfaz hasta ese momento
+-action: para saber que datos debe de ejecutarse 
+
+const initialState= {value: 0}
+function counterReducer(state = initialState, action){
+ if (action.type = "counter/incremented"){
+  return{
+	...state,
+	value: state.value + 1
+	}
+}
+
+return state //retorna el nuevo estado de toda la aplicacion pero guardando los pasos anteriores
+
