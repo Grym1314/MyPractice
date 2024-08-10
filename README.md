@@ -1,1 +1,0 @@
-Hello All, in this repostisory you will see all my advaces
