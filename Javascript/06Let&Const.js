@@ -19,7 +19,7 @@ console.log(xp);        // Output: 70
 
 //For a const variable, we can't change its value, but we can still print it:
 const userID = 16180339887;
-console.log(userID);    // Output: 16180339887
+console.log(userID);    // Output
 
 // Excercise 
 const greetings = 'Hello good afternoon \n';
