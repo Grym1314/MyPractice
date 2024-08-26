@@ -1,2 +1,2 @@
 READ ME 
-my oractice
+My Practice
