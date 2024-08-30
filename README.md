@@ -1,2 +1,2 @@
 READ ME 
-almost there
+almost there I need my drive for SQL
